@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de proyectos</title>
+    <!-- <link rel="stylesheet" href="reset.css" > -->
+    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="flexbox.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <!-- <h1><img src="IMG/Marcopolo.png"</h1>  -->
+        <div class="nombre">
+            <h1 class="tituloPrincipal">Alejandro Palacios</h1>
+        </div>
+            <div class="caja">
+                <nav class="nav_principal">
+                    <ul class="navegacion_lu">    
+                    <li class="items"><a href="sobre_mi">Sobre mi</a></li>
+                    <li class="items"><a href="skills">Skills</a></li>
+                    <li class="items"><a href="hobbies">Hobbis</a></li>
+                    <li class="items"><a href="formacion">Formacion</a></li>
+                    <li class="items"><a href="proyectos">Proyectos</a></li>
+                    <li>manoloalejo1402@gmail.com</li>
+                    </ul>
+                </nav>      
+            </div>
+</header>
+<main>
+        <!--quien soy-->
+
+    
+    <div class="quien_soy">
+            <div class="titulo__container">
+                 <h1 class="tituloprincipal">Hola, mi nombre es Alejandro Palacios y construyo paginas web.</h1>
+                 
+                 <img class="img" src="IMG/programadir.jpg">
+                 
+            </div>
+
+            
+            <div class="descripcion_container">
+                
+                <p id="descripcion">Soy ingniero de sistemas formado en la Corporación Unificada Nacional de Educación Superior (CUN), y actualemte este estoy participando en el programa de desarroolo web de Oracle One y Alura 
+                    Latam.</p>
+                
+                <ul class="links">
+                    <li class="acceso"><a href="Github">Github</a></li>
+                    <li class="acceso"><a href="Linkedin">Linkedin</a></li>
+                    <li class="acceso"><a href="Instagram">Instagram</a></li>
+                    <li class="acceso"><a href="Curriculo">CV</a></li>
+                </ul>
+            
+            </div>
+
+            <div class="imagen">
+                
+            </div>
+            
+    </div>
+    
+    <section class="sobre_mi">
+        <h1 id="sobre_mi">Sobre mi</h1>
+        <p id="sobre_mi_parrafo">¡Bienvenido a mi portafolio personal en línea!
+
+            Soy un apasionado Ingeniero en Sistemas de 27 años con sede en Colombia, dedicado a explorar y aprender en el vasto mundo de la programación. Aunque mi experiencia pueda ser aún incipiente, mi entusiasmo y dedicación hacia el desarrollo de habilidades tecnológicas son evidentes.<br><br>
+            
+            Dentro de mi portafolio, encontrarás una variedad de proyectos que reflejan mi aprendizaje continuo y mi progreso en el campo de la programación. Desde pequeñas aplicaciones hasta desafiantes proyectos de código abierto, cada uno representa un paso más en mi camino hacia la maestría en este emocionante campo.<br><br>
+            
+            Además de mis habilidades técnicas en lenguajes de programación como Python, HTML, CSS y JavaScript. Mi objetivo es seguir ampliando mis conocimientos y contribuir de manera significativa al desarrollo tecnológico de mi comunidad y más allá.
+            
+        </p>
+
+    </section>
+    <!--skills y hobiies-->
+    <div class="skills__hobbies">
+        <div class="skill">
+            <h2 class="skill">Skills</h2>
+            <ul>
+                <li>
+                    <img src="IMG/html-5.png">
+                    <P>HMTL 5</P>
+                </li>
+                <li>
+                    <img src="IMG/css-3.png">
+                    <P>CSS</P>
+                </li>
+                <li>
+                    <img src="IMG/JS.png">
+                    <P>Java Script</P>
+                </li>
+                <li>
+                    <img src="IMG/piton.png">
+                    <P>Python</P>
+                </li>
+            </ul>
+        </div>
+
+        <!--Hobbirs-->
+        <div class="hobbies">
+            <h2 class="hobbies">Hobbies</h2>
+            <ul>
+                <li>
+                    <img src="IMG/jugador-de-futbol.png">
+                    <P>Jugar Futbol</P>
+                </li>
+                <li>
+                    <img src="IMG/consola-de-video.png">
+                    <P>Video Juegos</P>
+                </li>
+                <li>
+                    <img src="IMG/escucha.png">
+                    <P>Escuchar Música</P>
+                </li>
+                <li>
+                    <img src="IMG/pesa.png">
+                    <P>Gym</P>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--Formacion academica-->
+<div class="formacion">
+    <h2 id="titulo_formacion">Formación Acádemica</h2>
+
+    <ul class="img__formacion">
+        
+        <li>
+            <img src="IMG/cun.png">
+            <p>Ingeniera de Sistemas</p>
+        </li>
+         
+        <li>    
+            <img src="IMG/aluraoracle.png">
+            <p>Desarollo WEB - Fron End</p>
+        </li>
+        <li>
+            <img src="IMG/Usergio.png">
+            <p>Desarrollo web</p>
+        </li>
+    </ul>
+</div>
+<div class="formulario_container">
+
+    <h2 id="contacto">Contacto</h2>
+    <p id="parrafo_container">¿Quieres contactarme? Complete el siguiente formulario y me podnre en contacto con usted lo antes posible.</p>
+
+    <form action="/my-handling-form-page" method="post">
+
+        
+
+        <div class="img_contacto">
+            <img src="IMG/contacto.png">
+        </div>
+        
+        <div class="formulario">
+
+            <label for="name">Nombre completo:</label>
+            <input type="text" id="name" name="user_name" required placeholder="Pepito perez"/>
+        
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" required placeholder="email@dominio.com"/>
+        
+            <label for="asunto">asunto:</label>
+            <input type="text" id="asunto" name="user_aunto" required placeholder="Ej: Asesoria"/>
+        
+            <label for="msg">Mensaje:</label>
+            <textarea cols="50" rows="10" id="msg" name="user_message" required></textarea>
+
+            <input type="submit" value="Enviar Mensaje" class="enviar" >
+        </div>
+    </form>
+</div>
+</main>
+<footer>
+    <p class="parrafo_footer">Desarrollado por Alejanro Palacios</p>
+    <p>2024</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,244 @@
+body{
+    font-family: "Montserrat";
+}
+
+header{
+    background: #ECECEC;
+    padding: 20px;
+}
+
+
+.caja{
+    font-size: 15px;
+    width: 1260px;
+    margin:0 auto;
+    
+}
+
+nav{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.tituloPrincipal{
+    text-align: start;
+    font-size: 13px;
+    padding:15px 0 0 15%;   
+    
+}
+
+.quien_soy{
+    display: flex;
+    flex-flow:wrap ;
+    background: #ECECEC;
+    padding: 20PX;
+    flex-direction: row-reverse;
+}
+
+
+
+.titulo__container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align:left;
+    grid-gap: 10px;
+    margin: 0 13% 0 15%;
+}
+
+.descripcion_container{
+    display:flex;
+    flex-direction: column;
+    margin:0 35% 0 15%;
+
+}
+
+.links{
+    display: flex;
+    grid-gap:65px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    margin:35px 70px 50px;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 40px;
+}
+    
+
+
+.sobre_mi{
+    background: #ECF4FF;
+    
+    text-align: justify;
+    padding: 90px;
+    
+
+}
+
+#sobre_mi{
+    margin: 25px 35% 0 13%;
+}
+
+#sobre_mi_parrafo{
+    margin: 25px 35% 0 13%;
+    
+}
+
+.skills__hobbies{
+    background: #ECECEC;
+    text-align:center;
+    
+    padding: 90px;
+}
+
+.skills__hobbies li{
+    display:inline-block;
+    background: white;
+    text-align: center;
+    font-size: 10px;
+    margin: 10px 20px;
+    padding: 20px 30px 20px 30px;
+    font-weight: bold;
+    
+    
+    img{
+         
+         width: 30px;
+         height: 30px;
+         
+    }
+  
+}
+
+.formacion {
+    text-align:center;
+    background: #ECF4FF;
+    padding: 90px 0 0 50px;
+    font-weight: bold;
+
+}
+.formacion li {
+    display: inline-block; 
+    text-align: center;
+    margin:50px ;
+    padding: 20px 10px 20px 10px;
+    img{
+        top: 200%;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        background: white;
+        padding: 50px 70px;
+    }
+
+}
+
+#contacto{
+    text-align: center;
+}
+
+#parrafo_container{
+    text-align: center;
+    
+    flex-direction: column-reverse;
+}
+
+.img_contacto{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 500px;
+        height: 500px;
+        margin: auto 150px  50px
+        }
+
+}
+
+.formulario_container{
+   
+    background: #ECF4FF;
+    padding: 90px 320px 15px 320px;
+    margin: 0 auto;
+    width: 1260px
+}
+
+
+form{
+    display: flex;
+    flex-direction: row;
+    margin: 90px 0;
+    
+    
+}
+
+form label{
+    display: block;
+    
+    font-size: 15px;
+    width: 100%;
+    padding: 5px 0;
+    
+}
+
+form input{
+    
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    
+}
+
+form input:focus::placeholder{
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.enviar{
+    width: 40%;
+    font-size: 15px;
+    color: white;
+    background: #3A7DDA;
+    padding: 15px 0 ;
+    margin:10px 0;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+@media  screen and (max-width: 834px){
+    .caja {
+        width: auto;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row-reve;
+        width: auto;
+        position: absolute;
+    }
+}
+
